@@ -1,11 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import jidefx.scene.control.field.*?>
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jeangalliani.jidefx.view.TelaController">
-    
+<AnchorPane fx:id="root" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jeangalliani.jidefx.view.TelaController">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="402.0" prefWidth="563.0">
+         <children>
+            <Label layoutX="21.0" layoutY="27.0" text="E-mail" textFill="#006280">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tEmail" layoutX="21.0" layoutY="53.0" prefHeight="37.0" prefWidth="234.0" />
+            <TextField fx:id="tCpf" layoutX="21.0" layoutY="130.0" prefHeight="37.0" prefWidth="234.0" />
+            <Label layoutX="21.0" layoutY="104.0" text="CPF" textFill="#006280">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tReal" layoutX="21.0" layoutY="206.0" prefHeight="37.0" prefWidth="234.0" />
+            <Label layoutX="21.0" layoutY="180.0" text="Real" textFill="#006280">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="300.0" layoutY="180.0" text="Inteiro" textFill="#006280">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <FormattedTextField fx:id="tInteiro" layoutX="300.0" layoutY="206.0" prefHeight="37.0" prefWidth="234.0" />
+            <Label layoutX="300.0" layoutY="104.0" text="CNPJ" textFill="#006280">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tCnpj" layoutX="300.0" layoutY="130.0" prefHeight="37.0" prefWidth="234.0" />
+            <TextField fx:id="tVarchar45" layoutX="300.0" layoutY="53.0" prefHeight="37.0" prefWidth="234.0" />
+            <Label layoutX="300.0" layoutY="27.0" text="VARCHAR (45)" textFill="#006280">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button fx:id="tExemplo" disable="true" layoutX="23.0" layoutY="336.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="517.0" text="Botão de exemplo, habilita quando tudo for validado" textFill="#006280">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="183.0" layoutY="252.0" text="Telefone" textFill="#006280">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <FormattedTextField fx:id="tTelefone" layoutX="183.0" layoutY="278.0" prefHeight="37.0" prefWidth="234.0" />
+         </children>
+      </AnchorPane>
+   </children>
 </AnchorPane>
