@@ -20,6 +20,7 @@ import jidefx.scene.control.field.verifier.IntegerRangePatternVerifier;
  * Esta classe irá facilitar algumas questões de validação e decoração do JideFX
  * 
  * @author Jean Carlo Galliani
+ * & Leandro Acosta
  */
 public class Validation {
     

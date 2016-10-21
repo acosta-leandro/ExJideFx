@@ -13,6 +13,7 @@ import jidefx.scene.control.field.FormattedTextField;
 
 /**
   * @author Jean Carlo Galliani
+  * & Leandro Acosta
  */
 public class TelaController implements Initializable {
     

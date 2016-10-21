@@ -8,6 +8,7 @@ import javafx.stage.Stage;
 
 /**
  * @author Jean Carlo Galliani
+ * & Leandro Acosta
  */
 public class JideFX extends Application {
     
